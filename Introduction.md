@@ -170,3 +170,26 @@ Example: CONNECT example.com:443 – Establishes a tunnel to example.com on port
 | 404 Not Found | Resource not found |
 | 500 Internal Server Error | Server side error |
 
+### JSON Format
+
+- JSON = JavaScript Object Notation  
+- Definition:
+JSON is a lightweight, text-based data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+- Characteristics:
+    - Human-readable: Structured with key-value pairs, making it intuitive to understand.
+    - Language-independent: While derived from JavaScript, JSON is supported by most programming languages.
+    - Data types supported: Strings, numbers, booleans, null, objects, and arrays.
+    - Structure: Uses objects ({}) and arrays ([]) to organize data.
+    
+- Example:
+
+  ```json
+  {
+    "id": 3,
+    "name": "Alice",
+    "roles": ["admin", "user"],
+    "address": {
+      "city": "Hyderabad",
+      "zip": "500081"
+    }
+  }
